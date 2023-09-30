@@ -26,14 +26,14 @@ APP::get('/user/:id', function($req, $res){
 ```
 
 ### 2. Xpress Router - Using external file
-In order to use external file to route request and manage from another php file, you have to create a rout in `index.php` file. In this example it'll be in `external` dir i.e `external/vehicle.php`.
+In order to use external file to route request and manage from another php file, you have to create a rout in `index.php` file. In this example it'll be in `data` dir i.e `data/vehicle.php`.
 ```php
 <?php
 /*This is index.php file*/
 include __DIR__ .'/src/xpress.php';
 
 /*Including external file to routs request of vehicle endpoits*/
-APP::use('/vehicle', 'external/vehicle');
+APP::use('/vehicle', 'data/vehicle');
 
 APP::end();
 ```
