@@ -58,5 +58,7 @@ APP::get('/list', function($req, $res) use ($vehicleList){
 APP::get('/name/:index', function($req, $res) use ($vehicleList){
     $res->send($vehicleList[$req['index']]);
 });
+
+APP::end();
 ```
 Updating Soon...
