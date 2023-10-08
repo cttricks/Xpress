@@ -21,7 +21,7 @@ APP::end();
 
 ```php
 APP::get('/user/:id', function($req, $res){
-    $res->status->(200)->json(array('userId'=> $req['id']));
+    $res->status(200)->json(array('userId'=> $req['id']));
 });
 ```
 
@@ -46,7 +46,7 @@ $vehicleList = array('Tata Nexon', 'Kia Seltos', 'Hyundai Creta', 'Hyundai Exter
 
 /*Exmaple 1 | With user defined status code | URL: http://localhost/vehicle*/
 APP::get('/', function($req, $res){
-    $res->status->(200)->send('Hello! from vehicle.php file.');
+    $res->status(200)->send('Hello! from vehicle.php file.');
 });
 
 /*Example 2 | With app defined status code | URL: http://localhost/vehicle/list*/
