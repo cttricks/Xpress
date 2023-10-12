@@ -17,7 +17,7 @@ APP::get('/', function($req, $res){
 
 APP::end();
 ```
-### 1. Xpress Router - Virtual prefix
+### 1. Virtual prefix
 
 ```php
 APP::get('/user/:id', function($req, $res){
@@ -25,7 +25,7 @@ APP::get('/user/:id', function($req, $res){
 });
 ```
 
-### 2. Xpress Router - Using external file
+### 2. Using external file
 In order to use external file to route request and manage from another php file, you have to create a rout in `index.php` file. In this example it'll be in `data` dir i.e `data/vehicle.php`.
 ```php
 <?php
