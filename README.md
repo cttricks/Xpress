@@ -61,4 +61,19 @@ APP::get('/name/:index', function($req, $res) use ($vehicleList){
 
 APP::end();
 ```
+### 3. Redirect
+You can redirect a virtual path to any other endpoint, with status code & params. Here `true` is to include all params else you can pass an array of keys to be include in redirect URI. 
+
+```php
+APP::redirect("/github", "https://github.com/cttricks", 302, true);
+
+/*-----OR------*/
+
+APP::redirect("/github/:tab", "https://github.com/cttricks", 302, ['tab']);
+```
+Or keep it simeple & redirect without credentials too
+```php
+APP::redirect("/github", "https://github.com/cttricks");
+```
+
 Updating Soon...
