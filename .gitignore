@@ -12,5 +12,4 @@ logs
 # temp and cache directory
 .temp
 .cache
-
-
+junk*
