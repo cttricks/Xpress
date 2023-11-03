@@ -66,12 +66,12 @@ You can redirect a virtual path to any other endpoint, with status code & params
 
 ```php
 APP::redirect("/github", "https://github.com/cttricks", 302, true);
-
-/*-----OR------*/
-
+```
+Or you can also include virtual prefix & use that as params in target URL
+```php
 APP::redirect("/github/:tab", "https://github.com/cttricks", 302, ['tab']);
 ```
-Or keep it simeple & redirect without credentials too
+Or keep it simeple & redirect without params
 ```php
 APP::redirect("/github", "https://github.com/cttricks");
 ```
