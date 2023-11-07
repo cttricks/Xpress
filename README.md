@@ -2,7 +2,10 @@
 Xpress is a versatile PHP library designed to streamline the creation of API endpoints, drawing inspiration from the simplicity and elegance of `Express.js`, a popular framework in the `Node.js` ecosystem. This library, currently in its beta stage, empowers developers to handle HTTP GET and POST requests with ease.
 
 ### Requirements
-- PHP >= 7.1
+- PHP >= 5.1
+
+### Installation
+Currently you can simply download this repository and start using it. No additional configuration required.
 
 ### Routing
 
@@ -75,5 +78,33 @@ Or keep it simeple & redirect without params
 ```php
 APP::redirect("/github", "https://github.com/cttricks");
 ```
+### Contribution
 
-Updating Soon...
+Contributions are welcome! If you think you can improve the performance, add more animations, or enhance the effects of xpress, I encourage you to contribute to the project.
+
+To contribute, please follow these steps:
+
+1. Fork the repository on GitHub.
+
+2. Create a new branch with a descriptive name for your contribution.
+
+3. Make your modifications, improvements, or additions to the codebase.
+
+4. Test your changes to ensure they work as expected.
+
+5. Commit your changes and push them to your forked repository.
+
+6. Submit a pull request from your branch to the main repository's `master` branch.
+
+I appreciate your contributions and will review your pull request as soon as possible. Feel free to provide any additional context, explanations, or documentation related to your contribution in the pull request description.
+
+💡 Please note that by contributing to this repo, you agree to release your contributions under the Apache-2.0 License.
+
+### License
+Xpress is released under the Apache-2.0 License. See the LICENSE file for more details.
+
+### Disclaimer
+
+This project is a fun experiment and should not be used in a production environment without proper testing and security measures. Use it responsibly and at your own risk.
+
+Feel free to reach out if you have any questions or encounter issues during setup. Happy coding!
