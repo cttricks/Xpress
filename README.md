@@ -2,7 +2,7 @@
 Xpress is a versatile PHP library designed to streamline the creation of API endpoints, drawing inspiration from the simplicity and elegance of `Express.js`, a popular framework in the `Node.js` ecosystem. This library, currently in its beta stage, empowers developers to handle HTTP GET and POST requests with ease.
 
 ### Requirements
-- PHP >= 7.1
+- PHP >= 5.1
 
 ### Installation
 Currently you can simply download this repository and start using it. No additional configuration required.
